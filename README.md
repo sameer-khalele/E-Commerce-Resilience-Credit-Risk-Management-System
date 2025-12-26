@@ -17,3 +17,8 @@ In this project, I apply the **5 Whys** method to identify and fix root causes.
 5. **Root Cause:** Absence of a **Change Management Protocol**.
 
 **Action Plan:** Implemented **Automated Integration Tests** to validate data integrity after every update.
+##  Implementation: Data Validation Script
+I have included a Python script `data_validator.py` that demonstrates the **Automated Integration Test**. 
+This script ensures that the system detects schema changes (like field renaming) or invalid data (like zero income) before they affect the model's output.
+##  Conclusion
+This project demonstrates the integration of **Risk Management** principles into the software development lifecycle. By identifying potential threats (Operational, Human, and Technical) and implementing automated safeguards, we ensure a resilient and reliable system that protects both the business and its customers.
